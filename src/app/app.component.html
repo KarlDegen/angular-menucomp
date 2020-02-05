@@ -1,4 +1,8 @@
 <hello name="{{ name }}"></hello>
 <p>
-  Start editing to see some magic happen :)
+	Start editing to see some magic happen :)
 </p>
+<ol >
+	<li *ngFor="let item of arr"> Item is {{ item }}</li>
+</ol>
+<button (click)="do1()">Sort</button>
